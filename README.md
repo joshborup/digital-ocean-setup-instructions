@@ -1,3 +1,5 @@
+# Digital Ocean coupons and setup instructions
+
 <ol>
     <li>First open this <a href='https://m.do.co/c/14d81c9a2d3a'>link</a> and Sign Up to get your $10 credit.</li>
     <li>While filling your billing info, click on "Have a Promo Code?" at the bottom of the page.</li>
@@ -20,3 +22,4 @@
     <li>FRANKFURT</li>
 </ul>
 
+<strong>these instructions were selectively copied from the relevant portions of the digital ocean documentations</strong>
