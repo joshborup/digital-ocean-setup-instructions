@@ -22,4 +22,4 @@
     <li>FRANKFURT</li>
 </ul>
 
-<strong>these instructions were selectively copied from relevant portions of the digital ocean's documentations</strong>
+<strong>these instructions were selectively copied from the relevant portions of digital ocean's documentations</strong>
