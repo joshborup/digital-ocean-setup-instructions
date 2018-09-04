@@ -1,5 +1,23 @@
 # Digital Ocean coupons and setup instructions
 
+Digital ocean is a service that provides you a virtual server that runs 24x7. This server has certain things installed and ready to go, but a few things we need to set up ourselves.
+
+**TABLE OF CONTENTS**
+
+<ol> 
+    <li><a href="#initial-server-setup">Initial Server Setup</a></li>
+        <ul>
+            <li><a href="#step-one----root-login">Root Login</a></li>
+            <li><a href="#step-two--create-a-new-user">Create a New User</a></li>
+            <li><a href="#step-three--root-privileges">Root Privileges</a></li>
+            <li><a href="#step-four--add-public-key-authentication-recommended">Add Public Key Authentication (Recommended)</a></li>
+            <li><a href="#step-five--test-log-in">Test Login</a></li>
+            <li><a href="#step-seven--set-up-a-basic-firewall">Set Up a Basic Firewall</a></li>
+        </ul>
+    <li><a href='#setup-domain-name-to-be-used-with-application'>Setup domain name to be used with Application</a></li>
+    <li><a href='#how-to-install-nginx'>How To Install Nginx</a></li>
+</ol>
+
 <ol>
     <li>First open this <a href='https://m.do.co/c/14d81c9a2d3a'>link</a> and Sign Up to get your $10 credit.</li>
     <li>While filling your billing info, click on "Have a Promo Code?" at the bottom of the page.</li>
@@ -140,7 +158,7 @@ exit
 
 Now your public key is installed, and you can use SSH keys to log in as your user.
 
-## Step Six — Test Log In
+## Step Five — Test Log In
 
 In a new terminal on your local machine, log in to your server using the new account that we created. To do so, use this command (substitute your username and server IP address):
 
@@ -148,7 +166,7 @@ In a new terminal on your local machine, log in to your server using the new acc
 ssh devmountain@your_server_ip
 ```
 
-## Step Seven — Set Up a Basic Firewall
+## Step Six — Set Up a Basic Firewall
 
 We need to make sure that the firewall allows SSH connections so that we can log back in next time. We can allow these connections by typing:
 
