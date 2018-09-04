@@ -202,7 +202,7 @@ Before we can test Nginx, we need to reconfigure our firewall software to allow 
 You can enable this by trying
 
 ```bash
-sudo ufw allow 'Nginx HTTP'
+sudo ufw allow 'Nginx Full'
 ```
 
 # Set Up Node.js Application for Production
@@ -383,8 +383,8 @@ make sure your are in the root folder for your user by typing `cd` and pressing 
 
 you can now `git clone` your repository
 
-because you added the .env to your .gitignore while developing, you will need to make a new `.env` that we can store our passwords and keys. To do this,
-`cd` into your projects directory and make a new .env by running the following command
+because you added the .env to your .gitignore while developing, you will need to make a new `.env` so that we can store our passwords and keys on the server. To do this,
+`cd` into your project's directory and make a new .env by running the following command
 
 ```bash
 nano .env
@@ -402,3 +402,29 @@ npm install
 npm run build
 ```
 
+## Step 3 - Start App
+
+We can do a test run on our application on the server to make sure we can access the application from the browser
+
+to do this run
+```bash
+node path/to/server/file
+```
+
+after running this as long as no error show in the terminal, then you can try an access your site from a browser using the domain name you registered.
+
+If everything is working as expected, we can now kill the node process running our server by typing `ctrl-x` in the terminal
+
+after killing the node process, you can now start up PM2 which we installed earlier, and that will run our website after we have logged out of our server.
+
+to do this, run the following command
+
+```bash
+pm2 start path/to/server/file
+```
+
+Check to make sure your site is accessible again in the browser, if everything is working, you can now type `exit` in your terminal to log out
+
+Congrats you have a fully functioning production ready app!
+
+if you have questions, feel free to email me: joshborup@gmail.com
