@@ -19,7 +19,17 @@ Digital ocean is a service that provides you a virtual server that runs 24x7. Th
         </ul>
     <li><a href='#setup-domain-name-to-be-used-with-application'>Setup domain name to be used with Application</a></li>
     <li><a href='#how-to-install-nginx'>How To Install Nginx</a></li>
-
+        <ul>
+            <li><a href="#step-1-install-nginx">Install NGINX</a></li>
+            <li><a href="#step-2-adjust-the-firewall">Adjust the Firewall</a></li>
+        </ul>
+    <li><a href='#set-up-nodejs-application-for-production'>Set Up Node.js Application for Production</a></li>
+    <ul>
+        <li><a href="#install-nodejs">Install Node.js</a></li>
+        <li><a href="#install-pm2">Install PM2</a></li>
+        <li><a href="#install-nodejs">Install Node.js</a></li>
+    </ul>
+       
     
 </ol>
 
@@ -185,14 +195,6 @@ sudo ufw enable
 # Setup domain name to be used with Application
 
 This part can be done from any domain name provider (e.g. GoDaddy, NameCheap, Google Domais) but we will use GoDaddy
-
-First go to GoDaddy and purchase the domain name of your choice, you can google for a 99 cent coupon or try one of these
-
-* GPPT02K500
-* CJCCOUP99
-* CJCRMNCA99
-* MMANUTS99
-* CJC99R
 
 After purchasing your domain name, you will need to Navagate to the DNS records of your new site
 
