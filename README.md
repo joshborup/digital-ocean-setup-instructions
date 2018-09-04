@@ -13,7 +13,7 @@ Digital ocean is a service that provides you a virtual server that runs 24x7. Th
             <li><a href="#step-three--root-privileges">Root Privileges</a></li>
             <li><a href="#step-four--add-public-key-authentication-recommended">Add Public Key Authentication (Recommended)</a></li>
             <li><a href="#step-five--test-log-in">Test Login</a></li>
-            <li><a href="#step-seven--set-up-a-basic-firewall">Set Up a Basic Firewall</a></li>
+            <li><a href="#step-six--set-up-a-basic-firewall">Set Up a Basic Firewall</a></li>
         </ul>
     <li><a href='#setup-domain-name-to-be-used-with-application'>Setup domain name to be used with Application</a></li>
     <li><a href='#how-to-install-nginx'>How To Install Nginx</a></li>
