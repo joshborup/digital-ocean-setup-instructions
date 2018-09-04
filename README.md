@@ -2,7 +2,9 @@
 
 Digital ocean is a service that provides you a virtual server that runs 24x7. This server has certain things installed and ready to go, but a few things we need to set up ourselves.
 
-**TABLE OF CONTENTS**
+<strong>these instructions were selectively copied from the relevant portions of digital ocean's documentations</strong>
+
+**TABLE OF CONTENTS** (work in progress)
 
 <ol> 
     <li><a href="#digital-ocean-coupons">Digital Ocean Coupons</a></li>
@@ -17,6 +19,8 @@ Digital ocean is a service that provides you a virtual server that runs 24x7. Th
         </ul>
     <li><a href='#setup-domain-name-to-be-used-with-application'>Setup domain name to be used with Application</a></li>
     <li><a href='#how-to-install-nginx'>How To Install Nginx</a></li>
+
+    
 </ol>
 
 # Digital Ocean Coupons
@@ -41,8 +45,6 @@ Digital ocean is a service that provides you a virtual server that runs 24x7. Th
     <li>DONEWS</li>
     <li>FRANKFURT</li>
 </ul>
-
-<strong>these instructions were selectively copied from the relevant portions of digital ocean's documentations</strong>
 
 
 # Initial Server Setup
