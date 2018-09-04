@@ -5,6 +5,7 @@ Digital ocean is a service that provides you a virtual server that runs 24x7. Th
 **TABLE OF CONTENTS**
 
 <ol> 
+    <li><a href="#digital-ocean-coupons">Digital Ocean Coupons</a></li>
     <li><a href="#initial-server-setup">Initial Server Setup</a></li>
         <ul>
             <li><a href="#step-one----root-login">Root Login</a></li>
@@ -18,6 +19,7 @@ Digital ocean is a service that provides you a virtual server that runs 24x7. Th
     <li><a href='#how-to-install-nginx'>How To Install Nginx</a></li>
 </ol>
 
+# Digital Ocean Coupons
 <ol>
     <li>First open this <a href='https://m.do.co/c/14d81c9a2d3a'>link</a> and Sign Up to get your $10 credit.</li>
     <li>While filling your billing info, click on "Have a Promo Code?" at the bottom of the page.</li>
